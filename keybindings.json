@@ -1,0 +1,115 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "cursorUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "inSearchEditor || searchViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-selectAllSearchEditorMatches",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "cursorUpSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "cursorDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "cursorWordStartLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "cursorWordStartRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+j",
+        "command": "cursorWordStartLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "cursorWordStartRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+;",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+;",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+a",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+z",
+        "command": "workbench.action.toggleZenMode"
+    },
+    {
+        "key": "ctrl+k z",
+        "command": "-workbench.action.toggleZenMode"
+    },
+]

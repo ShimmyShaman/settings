@@ -197,4 +197,9 @@
         "key": "ctrl+shift+e",
         "command": "-workbench.view.explorer"
     },
+    {
+        "key": "alt+d",
+        "command": "deleteWordRight",
+        "when": "textInputFocus && !editorReadonly"
+    },
 ]

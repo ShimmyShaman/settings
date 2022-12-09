@@ -105,6 +105,26 @@
         "when": "textInputFocus"
     },
     {
+        "key": "alt+i",
+        "command": "cursorMove",
+        "args": {
+            "to": "up",
+            "by": "line",
+            "value": 20
+        },
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "cursorMove",
+        "args": {
+            "to": "down",
+            "by": "line",
+            "value": 20
+        },
+        "when": "textInputFocus"
+    },
+    {
         "key": "alt+a",
         "command": "cursorHome",
         "when": "textInputFocus"
@@ -224,5 +244,13 @@
     {
         "key": "f4",
         "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "f7",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "f4",
+        "command": "workbench.action.terminal.killAll"
     },
 ]
